@@ -5,7 +5,7 @@ body {
 
 
 .pill-pane {
-    padding-top: 75px;
+    padding-top: 95px;
     background-position: center;
     border-bottom-width: 0;
     background-color: white;
@@ -15,33 +15,33 @@ body {
 }
 
 #home-header {   
-    margin-top: 25px;
-    max-height: 375px;
-    max-width: 375px;
+    margin-top: 35px;
+    max-height: 465px;
+    max-width: 465px;
     color: whitesmoke;
     font-family: 'Cinzel Decorative', serif;
     font-weight: bolder 900;
     border-bottom-width: thick;
-    text-shadow: 3px 3px 5px #778899;
+    text-shadow: 4px 4px 7px #778899;
 }
 
 #home hr {
     border-color: whitesmoke;
     border-width: thick;
-    max-width: 280px;
-    box-shadow: 2px 2px 4px #778899;
+    max-width: 350px;
+    box-shadow: 3px 3px 5px #778899;
 }
 #home-quote {
-    margin-top: 80px;
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
-    max-height: 250px;
-    max-width: 550px;
+    max-height: 315px;
+    max-width: 690px;
     color: whitesmoke;
     font-family: "Cinzel Decorative", serif;
     font-weight: 200;
     border-left-width: 0;
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
     animation-fill-mode: forwards;
 }
@@ -52,7 +52,7 @@ body {
 }
 
 #home {
-    padding-bottom: 50px;
+    padding-bottom: 60px;
     background-image: url("http://rockrunpottery.com/wordpress/wp-content/uploads/2011/02/background.jpg");
 }
 
@@ -61,11 +61,11 @@ body {
 }
 
 .pill-head {
-    font-size: 3em;
-    
+    font-size: 4em;
 }
 
 #headshot{
+    padding-top: 60px;
     float: left;
     margin:auto;
 }
@@ -73,12 +73,11 @@ body {
 #bio {
     float: right;
     color: whitesmoke;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     margin-left: auto;
-    margin-right: 20px;
-    max-width: 75%;
+    margin-right: 25px;
+    max-width: 95%;
 }
-
 
 #portfolio {
     background-image: url("../images/Stryker.jpg");
