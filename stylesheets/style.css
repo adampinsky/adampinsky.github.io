@@ -66,10 +66,12 @@ body {
 }
 
 #headshot{
+    float: left;
     margin:auto;
 }
 
 #bio {
+    float: right;
     color: whitesmoke;
     padding-bottom: 20px;
     margin-left: auto;
