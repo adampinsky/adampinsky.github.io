@@ -64,12 +64,10 @@ body {
 .pill-head {
     font-size: 300%;
 }
-#headshot{
+.headshot{
     margin: auto;
     float: left;
-    border-style: outset;
-    border-color: whitesmoke;
-    border-width: 20px;
+    border: 20px outset whitesmoke;
     border-radius: 40px / 80px;;
 }
 #bio {
@@ -77,7 +75,6 @@ body {
     margin-left: 10px;
     margin-right: 25px;
     max-width: 75%;
-    float: right;
 }
 .bio-txt {
     font-size: 112.5%;
