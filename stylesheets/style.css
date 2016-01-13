@@ -80,16 +80,16 @@ body {
 #portfolio {
     background-image: url("../images/Stryker.jpg");
 }
-.project-info {
+#thumbnail>img {
     filter: grayscale(100%) blur(3px);
 }
-.project-info:hover {
+#thumbnail>img:hover {
     filter: grayscale(0) blur(0);
 }
-#project-gallery {
+.project-gallery {
     margin: auto;
 }
-#row1+#row2 {
+.row1+.row2 {
     margin-bottom: 95px;
 }
 
