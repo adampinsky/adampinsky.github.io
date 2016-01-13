@@ -6,7 +6,7 @@ body {
     
 }
 
-#nav {
+#navbar-header {
     font-size: 130%;
 }
 
@@ -22,7 +22,6 @@ body {
 }
 
 #home {
-    margin-top: 120px;
     padding-bottom: 60px;
     background-image: url("http://rockrunpottery.com/wordpress/wp-content/uploads/2011/02/background.jpg");
 }
