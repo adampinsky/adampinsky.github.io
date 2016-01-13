@@ -65,12 +65,12 @@ body {
     font-size: 300%;
 }
 #headshot{
-    min-height: 350px;
-    min-width: 350px;
+    min-height: 360px;
+    min-width: 340px;
     margin: auto;
     float: left;
     border: 20px outset whitesmoke;
-    border-radius: 40px / 80px;;
+    border-radius: 60px / 40px;
 }
 #bio {
     padding-bottom: 25px;
@@ -80,6 +80,7 @@ body {
 }
 .bio-txt {
     font-size: 112.5%;
+    
 }
 
 #portfolio {
