@@ -1,9 +1,10 @@
 body {
-	position: relative;
+    position: relative;
     font-family: "Cinzel", serif;
 }
-
-
+#nav {
+    font-size: 130%;
+}
 .pill-pane {
     padding-top: 95px;
     background-position: center;
@@ -13,7 +14,6 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
-
 #home-header {   
     margin-top: 35px;
     max-height: 465px;
