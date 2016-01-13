@@ -71,7 +71,7 @@ body {
     border-style: outset;
     border-color: whitesmoke;
     border-width: thick;
-    border-radius: 180;
+    border-radius: 20px;
 }
 #bio {
     padding-bottom: 25px;
