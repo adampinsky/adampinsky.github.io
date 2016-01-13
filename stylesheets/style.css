@@ -65,6 +65,8 @@ body {
     font-size: 300%;
 }
 .headshot{
+    min-height: 350px;
+    min-width: 350px;
     margin: auto;
     float: left;
     border: 20px outset whitesmoke;
