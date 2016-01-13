@@ -66,13 +66,14 @@ body {
     font-size: 300%;
 }
 #headshot{
-    margin-right: 10px;
-    padding-top: 60px;
+    margin: auto;
     float: left;
-    margin:auto;
+    border-style: outset;
+    border-color: whitesmoke;
+    border-width: thick;
+    border-radius: 180;
 }
 #bio {
-    float: right;
     padding-bottom: 25px;
     margin-left: 10px;
     margin-right: 25px;
