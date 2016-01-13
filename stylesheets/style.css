@@ -2,7 +2,7 @@ body {
     position: relative;
     color: whitesmoke;
     font-family: "Cinzel", serif;
-    font-size: 100%;
+    font-size: 16pt;
     
 }
 
@@ -18,15 +18,17 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    margin: 0;
+    margin-top: 35px;
     clear: both;
 }
 
+#home {
+    padding-bottom: 60px;
+    background-image: url("http://rockrunpottery.com/wordpress/wp-content/uploads/2011/02/background.jpg");
+}
 #home-header {   
-    margin-top: 35px;
     max-height: 465px;
     max-width: 465px;
-    color: whitesmoke;
     font-family: 'Cinzel Decorative', serif;
     font-weight: bolder 900;
     border-bottom-width: thick;
@@ -44,40 +46,29 @@ body {
     margin-right: auto;
     max-height: 315px;
     max-width: 690px;
-    color: whitesmoke;
     font-family: "Cinzel Decorative", serif;
     font-weight: 200;
-    border-left-width: 0;
-    font-size: 2em;
+    font-size: 200%;
     text-align: center;
     animation-fill-mode: forwards;
 }
-
 #home-quote footer {
     text-align: right;
     font-family: "Comfortaa", sans-serif;
 }
 
-#home {
-    padding-bottom: 60px;
-    background-image: url("http://rockrunpottery.com/wordpress/wp-content/uploads/2011/02/background.jpg");
-}
-
 #about {
     background-image: url("http://neirstavern.com/wp-content/uploads/2013/09/website-background-brick-wall.jpg");
 }
-
 .pill-head {
     font-size: 300%;
 }
-
 #headshot{
     padding-top: 60px;
     padding: 0;
     float: left;
     margin:auto;
 }
-
 #bio {
     float: right;
     padding-bottom: 25px;
@@ -86,12 +77,11 @@ body {
     max-width: 95%;
 }
 .bio-txt {
-    font-size: 1.125;
+    font-size: 112.5%;
 }
 
 #portfolio {
     background-image: url("../images/Stryker.jpg");
-    padding: 0;
 }
 .project-gallery {
     margin: auto;
