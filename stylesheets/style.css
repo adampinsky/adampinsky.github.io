@@ -64,7 +64,7 @@ body {
 .pill-head {
     font-size: 300%;
 }
-.headshot{
+#headshot{
     min-height: 350px;
     min-width: 350px;
     margin: auto;
