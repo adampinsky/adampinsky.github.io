@@ -12,6 +12,7 @@ body {
 
 .pill-pane {
     padding-top: 95px;
+    padding-bottom: 5%;
     background-position: center;
     border-bottom-width: 0;
     background-color: white;
@@ -48,9 +49,10 @@ body {
     max-width: 690px;
     font-family: "Cinzel Decorative", serif;
     font-weight: 200;
-    font-size: 200%;
+    font-size: 175%;
     text-align: center;
     animation-fill-mode: forwards;
+    border: 0;
 }
 #home-quote footer {
     text-align: right;
@@ -65,7 +67,6 @@ body {
 }
 #headshot{
     padding-top: 60px;
-    padding: 0;
     float: left;
     margin:auto;
 }
@@ -74,7 +75,7 @@ body {
     padding-bottom: 25px;
     margin-left: auto;
     margin-right: 25px;
-    max-width: 95%;
+    max-width: 75%;
 }
 .bio-txt {
     font-size: 112.5%;
