@@ -65,11 +65,11 @@ body {
     font-size: 300%;
 }
 #headshot{
-    min-height: 360px;
-    min-width: 340px;
+    min-height: 340px;
+    min-width: 360px;
     margin: auto;
     float: left;
-    border: 20px outset whitesmoke;
+    border: 15px groove whitesmoke;
     border-radius: 60px / 40px;
 }
 #bio {
