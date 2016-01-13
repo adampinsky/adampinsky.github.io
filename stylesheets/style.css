@@ -1,10 +1,15 @@
 body {
     position: relative;
+    color: whitesmoke;
     font-family: "Cinzel", serif;
+    font-size: 100%;
+    
 }
+
 #nav {
     font-size: 130%;
 }
+
 .pill-pane {
     padding-top: 95px;
     background-position: center;
@@ -13,7 +18,10 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    margin: 0;
+    clear: both;
 }
+
 #home-header {   
     margin-top: 35px;
     max-height: 465px;
@@ -21,11 +29,9 @@ body {
     color: whitesmoke;
     font-family: 'Cinzel Decorative', serif;
     font-weight: bolder 900;
-    
     border-bottom-width: thick;
     text-shadow: 4px 4px 7px #778899;
 }
-
 #home hr {
     border-color: whitesmoke;
     border-width: thick;
@@ -42,7 +48,7 @@ body {
     font-family: "Cinzel Decorative", serif;
     font-weight: 200;
     border-left-width: 0;
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
     animation-fill-mode: forwards;
 }
@@ -62,26 +68,33 @@ body {
 }
 
 .pill-head {
-    font-size: 4em;
+    font-size: 300%;
 }
 
 #headshot{
     padding-top: 60px;
+    padding: 0;
     float: left;
     margin:auto;
 }
 
 #bio {
     float: right;
-    color: whitesmoke;
     padding-bottom: 25px;
     margin-left: auto;
     margin-right: 25px;
     max-width: 95%;
 }
+.bio-txt {
+    font-size: 1.125;
+}
 
 #portfolio {
     background-image: url("../images/Stryker.jpg");
+    padding: 0;
+}
+.project-gallery {
+    margin: auto;
 }
 
 #contact {
