@@ -67,26 +67,24 @@ body {
     min-height: 340px;
     min-width: 360px;
     margin: auto;
-    float: left;
     border: 15px groove whitesmoke;
     border-radius: 60px / 40px;
 }
-#bio {
-    padding-bottom: 25px;
+#bio-txt {
+    font-size: 112.5%;
     margin-left: 10px;
     margin-right: 25px;
     max-width: 75%;
-}
-.bio-txt {
-    font-size: 112.5%;
-    
 }
 
 #portfolio {
     background-image: url("../images/Stryker.jpg");
 }
-.project-gallery {
+#project-gallery {
     margin: auto;
+}
+#row1+#row2 {
+    margin-bottom: 95px;
 }
 
 #contact {
