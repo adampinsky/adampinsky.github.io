@@ -66,6 +66,7 @@ body {
     font-size: 300%;
 }
 #headshot{
+    margin-right: 10px;
     padding-top: 60px;
     float: left;
     margin:auto;
@@ -73,7 +74,7 @@ body {
 #bio {
     float: right;
     padding-bottom: 25px;
-    margin-left: auto;
+    margin-left: 10px;
     margin-right: 25px;
     max-width: 75%;
 }
