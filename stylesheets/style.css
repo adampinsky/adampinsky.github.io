@@ -81,7 +81,7 @@ body {
 #portfolio {
     background-image: url("../images/Stryker.jpg");
 }
-a #thumbnail {
+#thumbnail {
     margin: 25px;
     opacity: 0.8;
     border: 10px solid #eee;
@@ -96,7 +96,7 @@ a #thumbnail {
 
     filter: grayscale(100%) blur(3px);
 }
-a #thumbnail:hover {
+#thumbnail:hover {
     opacity: 1;
    
     /*Reflection*/
