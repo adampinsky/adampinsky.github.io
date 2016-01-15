@@ -77,19 +77,20 @@ body {
 
 .headshot{
     background-image: url("../images/headshot.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
     float: right;
     min-height: 340px;
     min-width: 340px;
     margin: auto;
     border: 10px groove whitesmoke;
     border-radius: 60px / 40px;
-    overflow: hidden;
 }
 
 #bio-txt {
     font-size: 112.5%;
-    margin-left: 50px;
-    margin-right: auto;
+    margin: auto;
     max-width: 75%;
 }
 
