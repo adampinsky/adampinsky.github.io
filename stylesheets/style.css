@@ -84,12 +84,12 @@ body {
     min-height: 340px;
     min-width: 340px;
     margin: auto;
-    border: 10px groove whitesmoke;
-    border-radius: 60px / 40px;
+    border: 8px groove whitesmoke;
+    border-radius: 50px / 30px;
 }
 
 #bio-txt {
-    font-size: 112.5%;
+    font-size: 24px;
     margin: auto;
     max-width: 75%;
 }
@@ -211,6 +211,16 @@ body {
 
 .item-info a:hover {
 	color: rgba(255,242,34, 0.8);
+}
+
+.gallery-item:hover .item-info-front {
+	transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+	opacity: 0;
+}
+
+.gallery-item:hover .item-info-back {
+	transform: rotate3d(1,0,0,0deg);
+	opacity: 1;
 }
 
 
