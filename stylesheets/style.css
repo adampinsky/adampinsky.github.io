@@ -76,6 +76,9 @@ body {
     font-size: 300%;
 }
 
+.bio {
+    padding-top: 20px;
+}
 .headshot{
     background-image: url("../images/headshot.png");
     background-repeat: no-repeat;
@@ -85,7 +88,7 @@ body {
     min-height: 340px;
     min-width: 340px;
     margin: auto;
-    padding: auto;
+    padding-top: 10px;
     border: 8px groove whitesmoke;
     border-radius: 50px / 30px;
 }
@@ -93,6 +96,7 @@ body {
 .bio-txt {
     font-size: 24px;
     margin: auto;
+    padding-right: 25px;
 }
 
 
