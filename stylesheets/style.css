@@ -77,7 +77,7 @@ body {
 }
 
 .bio {
-    padding-top: 20px;
+    margin-top: 20px;
 }
 .headshot{
     background-image: url("../images/headshot.png");
@@ -87,8 +87,7 @@ body {
     float: right;
     min-height: 340px;
     min-width: 340px;
-    margin: auto;
-    padding-top: 10px;
+    margin: 10px auto auto auto;
     border: 8px groove whitesmoke;
     border-radius: 50px / 30px;
 }
