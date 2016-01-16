@@ -26,7 +26,7 @@ body {
 /*Home*/
 .home-pill {
     padding-bottom: 95px;
-    background-image: url("""http://rockrunpottery.com/wordpress/wp-content/uploads/2011/02/background.jpg""");
+    background-image: url("http://rockrunpottery.com/wordpress/wp-content/uploads/2011/02/background.jpg");
 }
 
 .home-header {   
@@ -85,6 +85,7 @@ body {
     min-height: 340px;
     min-width: 340px;
     margin: auto;
+    padding: auto;
     border: 8px groove whitesmoke;
     border-radius: 50px / 30px;
 }
