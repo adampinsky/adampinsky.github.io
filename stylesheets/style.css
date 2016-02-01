@@ -3,14 +3,13 @@ body {
     color: whitesmoke;
     font-family: "Cinzel", serif;
     font-size: 16pt;
-    
 }
 
 .navbar-brand {
     font-size: 130%;
 }
 
-.pill-pane {
+.tab-pane {
     padding-top: 95px;
     background-position: center;
     border-bottom-width: 0;
@@ -24,7 +23,7 @@ body {
 
 
 /*Home*/
-.home-pill {
+#home {
     padding-bottom: 95px;
     background-image: url("http://rockrunpottery.com/wordpress/wp-content/uploads/2011/02/background.jpg");
 }
@@ -33,7 +32,7 @@ body {
     max-height: 465px;
     max-width: 465px;
     font-family: 'Cinzel Decorative', serif;
-    font-weight: bolder 900;
+    font-weight: bolder;
     border-bottom-width: thick;
     text-shadow: 4px 4px 7px #778899;
 }
@@ -67,7 +66,7 @@ body {
 
 
 /*About*/
-.about-pill {
+#about {
     background-image: url("http://neirstavern.com/wp-content/uploads/2013/09/website-background-brick-wall.jpg");
     padding-bottom: 95px;
 }
@@ -101,7 +100,7 @@ body {
 
 
 /*Portfolio*/
-.portfolio-pill {
+#portfolio {
     background-image: url("../images/Stryker.jpg");
     padding-bottom: 95px;
 }
@@ -241,7 +240,7 @@ body {
 
 
 /*Contact*/
-.contact-pill {
+#contact {
     background-image: url("../images/tussle.jpg");
     
 }

@@ -43,28 +43,28 @@
                     </button>
                     <a class="navbar-brand navbar-left" href="http://freecodecamp.com/adampinsky">Adam R. Pinsky</a>
                 </div>
-                <div class="nav nav-collapse navbar-collapse navbar-right" id="nav-links">
-                    <ul class="nav navbar-nav nav-pills" role="tablist" id="myPill">
+                <nav class="nav nav-collapse navbar-collapse navbar-right" id="nav-links">
+                    <ul class="nav nav-pills" role="tablist" id="myPill">
                         <li role="presentation" class="active">
-                            <a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home <span class="sr-only">(current)</span></a>
+                            <a href="#home" aria-controls="home" role="tab" data-toggle="pill">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li role="presentation">
-                            <a href="#about" aria-controls="about" role="tab" data-toggle="tab">About</a>
+                            <a href="#about" aria-controls="about" role="tab" data-toggle="pill">About</a>
                         </li>
                         <li role="presentation">
-                            <a href="#portfolio" aria-controls="portfolio" role="tab" data-toggle="tab">Portfolio</a>
+                            <a href="#portfolio" aria-controls="portfolio" role="tab" data-toggle="pill">Portfolio</a>
                         </li>
                         <li role="presentation">
-                            <a href="#contact" aria-controls="contact" role="tab" data-toggle="tab">Contact</a>
+                            <a href="#contact" aria-controls="contact" role="tab" data-toggle="pill">Contact</a>
                         </li>
                     </ul>
-                </div>
+                </nav>
             </div>
         </nav>
     </div>
     
     <div class="tab-content">
-        <div role="tabpanel" class="tab-pane home-pill" id="home" >
+        <div role="tabpanel" class="tab-pane fade in active" id="home" >
             <div class="jumbotron">
                 <div class="container home-header" id="home-header">
                     <h1 class="home" id="title-name">
@@ -79,7 +79,7 @@
                 </blockquote>
             </div>
         </div>
-        <div role="tabpanel" class="tab-pane about-pill" id="about">
+        <div role="tabpanel" class="tab-pane fade" id="about">
             <div class="container">
                 <div class="row"> 
                     <h3 class="pill-head col-md-8">About Adam</h3>
@@ -93,7 +93,7 @@
                 </div>
             </div>
         </div>
-        <div role="tabpanel" class="tab-pane portfolio-pill" id="portfolio">
+        <div role="tabpanel" class="tab-pane fade" id="portfolio">
             <ul class="ch-grid">
                 <li>
                     <div class="ch-item">
@@ -164,7 +164,7 @@
                 </li>
             </ul>
         </div>
-        <div role="tabpanel" class="tab-pane contact-pill" id="contact">
+        <div role="tabpanel" class="tab-pane fade" id="contact">
             <h1 class="pill-head">[Section 4]</h1>
         </div>
     </div>
