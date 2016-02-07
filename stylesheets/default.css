@@ -1,0 +1,57 @@
+html {
+    padding: 0;
+}
+body {
+    font-family: "Cinzel", serif;
+    font-size: 16pt;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: auto;
+    padding-bottom: auto;
+    background-color: whitesmoke;
+    position: fixed;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.brand-name {
+    height: auto;
+    width: auto;
+    position: relative;
+    float: left;
+    font-family: 'Cinzel Decorative', cursive;
+    color:  
+}
+
+nav ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+nav li {
+    padding: 5px;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    float: right;
+    color: black;
+}
+
+main {
+    position: relative;
+    padding-top: 100px;
+}
