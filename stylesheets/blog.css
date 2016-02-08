@@ -1,0 +1,72 @@
+
+.brand-name {
+	text-align: center;
+	display: block;
+}
+
+nav ul {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100;
+	display: block;
+	clear: both;
+}
+nav ul li {
+	font-size: 14pt;
+	padding: 5px;
+}
+
+article {
+	font-family: "Cinzel", serif;
+	color: whitesmoke;
+	font-size: 16pt;
+	width: 100%;
+	background-image: url("http://neirstavern.com/wp-content/uploads/2013/09/website-background-brick-wall.jpg");
+	padding-top: 95px;
+    background-position: center;
+    border-bottom-width: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    clear: both;
+}
+
+article h1 {
+	font-family: "Cinzel Decorative", cursive;
+	margin: 50px;
+	margin-bottom: 30px;
+	font-size: 32pt;
+	font-weight: bold;
+}
+
+article h2 {
+	margin-left: 50px;
+	margin-bottom: 20px;
+	margin-top: 0;
+	font-size: 20pt;
+	font-family: "Cinzel", serif;
+	display: inline-block;
+	float: left;
+}
+
+article h4 {
+	display: inline-block;
+	float: right;
+	font-family: "Bowlby One SC", sans-serif;
+	margin-right: 50px;
+	margin-bottom: 20px;
+}
+  
+article hr {
+	clear: both;
+	margin: 0;
+}
+
+article p {
+	font-size: 16pt;
+	font-family: "Comfortaa", sans-serif;
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-right: 50px;
+}

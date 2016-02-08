@@ -2,38 +2,32 @@ html {
     padding: 0;
 }
 body {
+    position: relative;
+    color: whitesmoke;
     font-family: "Cinzel", serif;
     font-size: 16pt;
-    background-color: black;
-    color: whitesmoke;
 }
 
 .navbar {
     position: fixed;
+    top: 0;
     width: 100%;
     height: auto;
-    margin: 0;
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-top: auto;
-    padding-bottom: auto;
     background-color: whitesmoke;
     position: fixed;
+    z-index: 100;
 }
 
 .navbar a {
     text-decoration: none;
-    color: black;
-    
+    color: black;    
 }
 
 .brand-name {
-    height: auto;
-    width: auto;
-    position: relative;
-    float: left;
+    font-size: 32pt;
     font-family: 'Cinzel Decorative', cursive;
-    color:  
+    display: inline-block;
+    float: left;
 }
 
 nav ul {
@@ -42,16 +36,245 @@ nav ul {
     padding: 0;
     vertical-align: middle;
 }
-nav li {
+nav ul li {
     padding: 5px;
     margin: 0;
-    list-style: none;
-    position: relative;
-    float: right;
+    display: inline-block;
     color: black;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 45px;
 }
 
 main {
     position: relative;
     padding-top: 100px;
+}
+
+#home {
+    padding-bottom: 95px;
+    background-image: url("http://rockrunpottery.com/wordpress/wp-content/uploads/2011/02/background.jpg");
+}
+
+#about {
+    background-image: url("http://neirstavern.com/wp-content/uploads/2013/09/website-background-brick-wall.jpg");
+    padding-bottom: 95px;
+}
+
+#portfolio {
+    background-image: url("../images/Stryker.jpg");
+    padding-bottom: 95px;
+}
+
+#home img {
+    width: 25%;
+    margin-left: 37.5%;
+}
+
+blockquote {
+    font-size: 24pt;
+    font-style: italic;
+    width: 75%;
+    max-width: 75%;
+    margin-left: 25%;
+    margin-right: 25%;
+    line-height: 1.45;
+    text-align: right;
+    position: relative;
+}
+
+blockquote:before {
+display: block;
+content: "\201C";
+font-size: 80px;
+position: absolute;
+left: -20px;
+top: -20px;
+color: whitesmoke;
+}
+
+section {
+    padding-top: 95px;
+    background-position: center;
+    border-bottom-width: 0;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    clear: both;
+}
+
+.headshot{
+    background-image: url("../images/headshot.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    display: inline-block;
+    float: right;
+    min-height: 340px;
+    min-width: 340px;
+    margin: 10px auto auto auto;
+    border: 8px groove whitesmoke;
+    border-radius: 50px / 30px;
+}
+
+.bio-txt {
+    display: inline-block;
+    float: left;
+    font-size: 24px;
+    width: 65%;
+    padding-right: 25px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==============================
+got snippet from css-tricks.com
+================================*/
+
+.ch-grid {
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+}
+
+.ch-grid:after,
+.ch-item:before {
+    content: '';
+    display: table;
+}
+
+.ch-grid:after {
+    clear: both;
+}
+
+.ch-grid li {
+    width: 220px;
+    height: 220px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.ch-item {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: relative;
+    cursor: default;
+    perspective: 900px;
+}
+
+.ch-info {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+
+.ch-info > div {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-position: center center;
+    transition: all 0.4s linear;
+    transform-origin: 50% 0%;
+}
+
+.ch-info .ch-info-front {
+    box-shadow: inset 0 0 0 16px rgba(0, 0, 0, 0.3);
+}
+
+.ch-info .ch-info-back {
+    transform: translate3d(0, 0, -220px) rotate3d(1, 0, 0, 90deg);
+    background: #000;
+    opacity: 0;
+}
+
+.ch-img-1 {
+    background-image: url("http://lorempixel.com/200/200/technics/1/Project1");
+}
+
+.ch-img-2 {
+    background-image: url("http://lorempixel.com/200/200/technics/2/Project2");
+}
+
+.ch-img-3 {
+    background-image: url("http://lorempixel.com/200/200/technics/3/Project3");
+}
+
+.ch-img-4 {
+    background-image: url("http://lorempixel.com/200/200/technics/4/Project4");
+}
+
+.ch-img-5 {
+    background-image: url("http://lorempixel.com/200/200/technics/5/Project5");
+}
+
+.ch-img-6 {
+    background-image: url("http://lorempixel.com/200/200/technics/6/Project6");
+}
+
+.ch-info h3 {
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 24px;
+    margin: 0 15px;
+    padding: 60px 0 0 0;
+    height: 110px;
+    text-shadow: 0 0 1px whitesmoke, 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.ch-info p {
+    color: whitesmoke;
+    padding: 10px 5px;
+    font-style: italic;
+    margin: 0 30px;
+    font-size: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.ch-info p a {
+    display: block;
+    color: rgba(255, 255, 255, 0.7);
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 9px;
+    letter-spacing: 1px;
+    padding-top: 4px;
+}
+
+.ch-info p a:hover {
+    color: rgba(255, 242, 34, 0.8);
+}
+
+.ch-item:hover .ch-info-front {
+    transform: translate3d(0, 280px, 0) rotate3d(1, 0, 0, -90deg);
+    opacity: 0;
+}
+
+.ch-item:hover .ch-info-back {
+    transform: rotate3d(1, 0, 0, 0deg);
+    opacity: 1;
 }
