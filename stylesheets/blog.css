@@ -76,7 +76,6 @@ article p {
 =====================*/
 
 figure {
-	display: inline-block;
 	float: right;
 	margin: 20px;
 }
