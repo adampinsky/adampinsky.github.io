@@ -70,3 +70,13 @@ article p {
 	margin-top: 20px;
 	margin-right: 50px;
 }
+
+/*====================
+===== blog post 2 =====
+=====================*/
+
+figure {
+	display: inline-block;
+	float: right;
+	margin: 20px;
+}
