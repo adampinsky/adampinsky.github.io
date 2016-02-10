@@ -70,13 +70,19 @@ article hr {
 	margin-bottom: 50px;
 }
 
-article p {
+article section {
 	font-size: 18pt;
-	font-family: "Comfortaa", sans-serif;
+	font-family: "Cinzel", serif;
 	padding: 0;
 	margin: 50px;
+	margin-left: 80px;
+	margin-right: 80px;
 	margin-top: 0;
 	text-align: justify;
+}
+
+code {
+	font-family: "Commfortaa", sans-serif;
 }
 
 /*====================
