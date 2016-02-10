@@ -8,13 +8,17 @@ nav ul {
 	float: none;
 	margin-left: auto;
 	margin-right: auto;
-	width: 100;
+	margin-bottom: 20px;
+	width: 100%;
 	display: block;
 	clear: both;
+
 }
-nav ul li {
+
+h4 {
 	font-size: 14pt;
 	padding: 5px;
+	margin: 0;
 }
 
 article {
@@ -23,27 +27,29 @@ article {
 	font-size: 16pt;
 	width: 100%;
 	background-image: url("http://neirstavern.com/wp-content/uploads/2013/09/website-background-brick-wall.jpg");
-	padding-top: 95px;
+	padding-top: 100px;
+	padding-bottom: 100px;
     background-position: center;
     border-bottom-width: 0;
+    background-size: cover;
     background-repeat: repeat-y;
     background-attachment: fixed;
-    background-size: cover;
     clear: both;
 }
 
 article h1 {
 	font-family: "Cinzel Decorative", cursive;
-	margin: 50px;
-	margin-bottom: 30px;
 	font-size: 32pt;
-	font-weight: bold;
+	font-weight: bolder;
+	margin: 0;
+	margin-left: 20px;
+	padding: 0;
 }
 
 article h2 {
-	margin-left: 50px;
-	margin-bottom: 20px;
-	margin-top: 0;
+	margin-left: 30px;
+	margin-bottom: 50px;
+	margin-top: 10px;
 	font-size: 20pt;
 	font-family: "Cinzel", serif;
 	display: inline-block;
@@ -55,20 +61,22 @@ article h4 {
 	float: right;
 	font-family: "Bowlby One SC", sans-serif;
 	margin-right: 50px;
-	margin-bottom: 20px;
+	font-size: 16pt;
 }
   
 article hr {
 	clear: both;
 	margin: 0;
+	margin-bottom: 50px;
 }
 
 article p {
-	font-size: 16pt;
+	font-size: 18pt;
 	font-family: "Comfortaa", sans-serif;
-	margin-left: 50px;
-	margin-top: 20px;
-	margin-right: 50px;
+	padding: 0;
+	margin: 50px;
+	margin-top: 0;
+	text-align: justify;
 }
 
 /*====================
@@ -77,5 +85,16 @@ article p {
 
 figure {
 	float: right;
-	margin: 20px;
+	padding: 0;
+	padding-top: 10px;
+	margin: 50px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+figcaption {
+	text-align: right;
+	font-weight: lighter;
+	font-style: italic;
+	font-size: 14pt;
 }
